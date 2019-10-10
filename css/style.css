@@ -27,6 +27,10 @@ body.resume {
 	font-size: 2em;
 	text-align: center;
 }
+.list-small {
+	font-size: 1.3em;
+	font-family: "Times New Roman";
+}
 p {
 	padding: .5em;
 	font-size: 1.5em;
@@ -43,6 +47,9 @@ p.center {
 p.box {
 	border: 1em solid green;
 	width: 25em;
+}
+div.big {
+	bottom: 25em;
 }
 div.box {
 	margin: auto;
@@ -91,6 +98,7 @@ img {
 }
 img.float-right {
 	float: right;
+	margin-right: 10px;
 }
 img.float-left {
 	float: left;
@@ -98,4 +106,9 @@ img.float-left {
 iframe.center {
 	display: block;
 	margin: 0px auto;
+}
+li {
+	font-size: 1.3em;
+	margin-left: 1em;
+	list-style-type: square;
 }
