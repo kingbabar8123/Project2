@@ -4,8 +4,8 @@ body {
 	font-size: 1.1em;
 }
 .nav {
-	border: 1px;
-	border-width: 1px 0;
+	border: 1em;
+	border-width: 1em 0;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -19,7 +19,10 @@ body {
 }
 .nav a {
 	display:inline-block;
-	padding:10 px;
+	padding:1.5em;
+}
+p {
+	padding: .5em;
 }
 h1 {
 	color: red;
@@ -27,10 +30,13 @@ h1 {
 	font-size: 1.6em;
 	text-align: center;
 	text-decoration: underline;
+	padding: 1.1em;
 }
-h2 {
+h2, h3, h4 {
 	color: brown;
 	font-family: "Times New Roman", Times, serif;
+	font-size: 1.3em;
+	padding: 1.1em
 }
 img.make-center {
 	display: block;
