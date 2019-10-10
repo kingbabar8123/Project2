@@ -1,7 +1,9 @@
 body {
 	background-color: PapayaWhip;
 	font-family: Sofia, Verdana, sans-serif;
-	font-size: 1.1em;
+}
+body.resume {
+	background-color: white;
 }
 .nav {
 	border: 1em;
@@ -23,6 +25,18 @@ body {
 }
 p {
 	padding: .5em;
+	font-size: 1.1em;
+}
+.p-center {
+	text-align: center;
+}
+.nav1 {
+	display: list-item;
+	list-style-type: square;
+}
+.nav1 li {
+	display: list-item;
+	list-style-type: square;
 }
 h1 {
 	color: red;
@@ -32,11 +46,23 @@ h1 {
 	text-decoration: underline;
 	padding: 1.1em;
 }
+.resume {
+	color: black;
+	font-weight: bold;
+}
 h2, h3, h4 {
 	color: brown;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.3em;
-	padding: 1.1em
+	padding: 1.1em;
+}
+.resume-h2-4 {
+	text-decoration: underline;
+	color: black;
+	font-weight: bold;
+}
+.resume-center-h2-4 {
+	text-align: center;
 }
 img.make-center {
 	display: block;
@@ -48,7 +74,7 @@ img.float-right {
 img.float-left {
 	float: left;
 }
-iframe.center {
+.iframe-center {
 	display: block;
 	margin: 0px auto;
 }
