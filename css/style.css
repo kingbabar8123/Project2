@@ -29,16 +29,20 @@ h1 {
 	text-decoration: underline;
 }
 h2 {
-	color: yellow;
+	color: brown;
 	font-family: "Times New Roman", Times, serif;
 }
 img.make-center {
 	display: block;
 	margin: 0px auto;
 }
-#intro {
-	font-size: 1.3em;
+img.float-right {
+	float: right;
 }
-.colorful {
-	color: blue;
+img.float-left {
+	float: left;
+}
+iframe.center {
+	display: block;
+	margin: 0px auto;
 }
