@@ -43,24 +43,11 @@ p.color {
 p.center {
 	text-align: center;
 }
-p.box {
-	margin: auto;
-	border: 1em solid green;
-	width: 25em;
-}
 div.box {
 	margin: auto;
 	border: .5em solid green;
 	width: 25em;
 }		
-.nav1 {
-	display: list-item;
-	list-style-type: square;
-}
-.nav1 li {
-	display: list-item;
-	list-style-type: square;
-}
 h1 {
 	color: red;
 	font-weight: bold;
@@ -69,6 +56,12 @@ h1 {
 	text-decoration: underline;
 	padding: 1.1em;
 }
+h1.background {
+	margin: auto;
+	border: .5em solid blue;
+	background-color: green;
+	width: 25em;
+}
 .resume {
 	color: black;
 	font-weight: bold;
@@ -76,7 +69,7 @@ h1 {
 h2, h3, h4 {
 	color: brown;
 	font-family: "Times New Roman", Times, serif;
-	font-size: 1.4em;
+	font-size: 1.8em;
 	padding: 1.1em;
 	text-align: center;
 }
@@ -109,3 +102,4 @@ li {
 	margin-left: 1em;
 	list-style-type: square;
 }
+	
