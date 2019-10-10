@@ -24,7 +24,6 @@ body.resume {
 	padding:1.5em;
 }
 .list {
-	font-size: 2em;
 	text-align: center;
 }
 .list-small {
@@ -45,11 +44,9 @@ p.center {
 	text-align: center;
 }
 p.box {
+	margin: auto;
 	border: 1em solid green;
 	width: 25em;
-}
-div.big {
-	bottom: 25em;
 }
 div.box {
 	margin: auto;
