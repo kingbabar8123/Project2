@@ -23,13 +23,32 @@ body.resume {
 	display:inline-block;
 	padding:1.5em;
 }
-p {
-	padding: .5em;
-	font-size: 1.1em;
-}
-.p-center {
+.list {
+	font-size: 2em;
 	text-align: center;
 }
+p {
+	padding: .5em;
+	font-size: 1.5em;
+}
+p.small {
+	font-size: 1.1em;
+}
+p.color {
+	color: red;
+}
+p.center {
+	text-align: center;
+}
+p.box {
+	border: 1em solid green;
+	width: 25em;
+}
+div.box {
+	margin: auto;
+	border: .5em solid green;
+	width: 25em;
+}		
 .nav1 {
 	display: list-item;
 	list-style-type: square;
@@ -53,8 +72,9 @@ h1 {
 h2, h3, h4 {
 	color: brown;
 	font-family: "Times New Roman", Times, serif;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	padding: 1.1em;
+	text-align: center;
 }
 .resume-h2-4 {
 	text-decoration: underline;
@@ -64,9 +84,10 @@ h2, h3, h4 {
 .resume-center-h2-4 {
 	text-align: center;
 }
-img.make-center {
+img {
 	display: block;
 	margin: 0px auto;
+	padding: 1em;
 }
 img.float-right {
 	float: right;
@@ -74,7 +95,7 @@ img.float-right {
 img.float-left {
 	float: left;
 }
-.iframe-center {
+iframe.center {
 	display: block;
 	margin: 0px auto;
 }
