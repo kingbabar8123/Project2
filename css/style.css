@@ -28,9 +28,14 @@ h1 {
 	text-align: center;
 	text-decoration: underline;
 }
-h2 h3 h4 {
-	color: red;
-	font-family
+h2 {
+	color: yellow;
+	font-family: "Times New Roman", Times, serif;
+}
+img.make-center {
+	display: block;
+	margin: 0px auto;
+}
 #intro {
 	font-size: 1.3em;
 }
