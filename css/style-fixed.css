@@ -1,6 +1,8 @@
 body {
 	background-color: PapayaWhip;
 	font-family: Sofia, Verdana, sans-serif;
+	width: 960px;
+	margin: 0 auto;
 }
 .nav {
 	border: 10px;
@@ -21,7 +23,7 @@ body {
 	padding:10px;
 }
 p {
-	padding: 10px;
+	padding: 5px;
 	font-size: 20px;
 }
 p.center {
