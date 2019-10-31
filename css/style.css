@@ -16,10 +16,10 @@ nav {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1.2em;
 }
-li.nav {
+nav li {
 	display:inline;
 }
-a.nav {
+nav a {
 	display:inline-block;
 	padding:1.5em;
 }
