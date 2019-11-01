@@ -101,7 +101,7 @@ img {
 }
 img.float-right {
   float: right;
-  margin-right: 10px;
+  margin-right: 1em;
 }
 img.float-left {
   float: left;
